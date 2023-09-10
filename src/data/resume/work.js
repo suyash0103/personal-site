@@ -13,156 +13,72 @@
  */
 const work = [
   {
-    name: 'Smile Identity',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
+    name: 'Next Generation Robotics',
+    position: 'Senior Software Engineer',
+    url: 'https://ngr.ai',
+    startDate: '2023-04-01',
+    summary: `Next Generation Robotics works in 2 domains. First is developing scheduling algorithms for robots. A large 
+    number of robots are deployed in warehouses. These robots work in a sequential manner. NGR develops algorithms to make 
+    the robots work in a smart manner. As a Senior Software Engineer, I have single-handedly designed and developed APIs for 
+    third party clients to use. The API documentation can be found <a href="https://documenter.getpostman.com/view/28893225/2s9Xy6op3f">here</a>.
+    The second domain is the fitness scheduling app named Hiero. This app allows fitness trainers to get connected with 
+    fitness enthusiasts, and vice-versa. Hiero is soon to be launched on PlayStore and AppStore. I have single-handedly 
+    designed and developed the backend microservice for the app, and led a team of 3 Frontend engineers. I set up the AWS 
+    Infrastructure from scratch. Also, I have developed a monitoring and alerting system for the backend server. App links 
+    to be posted soon!`,
     highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
-      'Reorged engineering teams to focus on product delivery. Created a new team to focus on ML infrastructure.',
-      'Lead re-design of internal APIs for inference. Built new computer vision pipelines for industry leading certifications (NIST/iBeta liveness).',
-      'Pitched, designed, developed, deployed, and maintain a fraud detection product based on 1-N facial recognition using embeddings and vector search.',
+      'Developing a Spring Boot-based backend, using Microservice architecture and REST API principles.',
+      'Utilized AWS services like Lambda, Elastic Beanstalk, EC2, Relational Database Service (RDS), S3, Simple Email Service (SES), Simple Notification Service (SNS), Secrets Manager, Certificate Manager and Route 53.',
+      'Worked on Google Firebase, Google Distance Matrix API and Google Maps Java Client.',
+      'Designed and developed push notification service using Google Firebase and AWS SNS, and email notification service using AWS SES.',
+      'Worked on Uber H3 indexing APIs and developed Search Service, to find gym locations in a given-mile radius.',
     ],
   },
   {
-    name: 'Skeptical Investments',
-    position: 'Co-founder',
-    url: 'http://skepticalinvestments.biz',
-    startDate: '2017-04-01',
-    summary: `Skeptical Investments is a micro-vc fund focused on Angel, Seed, and Series-A
-    YC companies.`,
+    name: 'Amazon Web Services',
+    position: 'Software Development Engineer',
+    url: 'https://aws.amazon.com/rds/aurora/',
+    startDate: '2021-11-29',
+    endDate: '2022-08-30',
+    summary: 'SDE in the Aurora DB Team.',
     highlights: [
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
-      'Advise several startups in the fund.',
+      "Designed and developed 'Dynamic Configuration' project, utilizing AWS RDS Parameter Groups, reducing cross-team code modifications by 100% and providing a no-code solution to launching new database parameters. This project was developed with C++ and Java.",
+      'Worked in C++ on File I/O, avoiding deadlocks using mutex, locks and atomic variables, and thread management. Used advanced C++ Standard Template Library, Templates and Lambda functions.',
+      "Modified the algorithm for 'read' queries, reducing an average of 5 high-severity tickets per week.",
+      'Mentored an SDE intern, designing projects, performing code reviews, holding weekly 1:1 meetings, determining project stretch goals, and leading the completion of 3 projects.',
     ],
   },
   {
-    name: 'Arthena',
-    position: 'Co-founder & C.T.O.',
-    url: 'https://arthena.com',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
-    summary: `Arthena is a Series A Company funded by <a href="https://www.anthemis.com/">Athemis</a>,
-    <a href="https://foundationcapital.com">Foundation Capital</a>, and <a href="https://ycombinator.com/">YC</a>.
-    We develop quantitative strategies to predict the value of fine art and build investment products.
-    I ran a 20-person product and engineering org for 8 years. We were acquired by
-    <a href="https://www.masterworks.com/">Masterworks</a> in 2023.`,
+    name: 'Postman',
+    position: 'Software Developer',
+    url: 'https://learning.postman.com/docs/postman-flows/gs/flows-overview/',
+    startDate: '2021-05-18',
+    endDate: '2021-11-26',
+    summary: 'SDE in the Postman Flows team',
     highlights: [
-      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      "Set and communicated team priorities that supported the broader organization's goals. Aligned strategy, processes, and decision-making across teams.",
-      "Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching.",
-      'Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
+      "Developed full-stack applications in the 'Flows' module of the Postman desktop and web application. Used JavaScript and worked on Node.js, React and MongoDB.",
+      'Maintained a library to fetch and verify access tokens in HTTP requests.',
+      "Implemented Google's differential synchronization algorithm, enabling real-time collaboration in 'Flows.'",
+      "Designed access control permissions in 'Flows,' following the Role-Based Access Control (RBAC) model.",
+      'Developed a library to merge multiple JSON data.',
     ],
   },
   {
-    name: 'Enveritas',
-    position: 'ML Engineering Contractor',
-    url: 'http://enveritas.org',
-    startDate: '2016-09-01',
-    endDate: '2018-01-01',
-    summary: `Enveritas is a non-profit that works with coffee farmers to improve their livelihoods.
-    I joined on day one and helped build a variety of tools to collect and analyze data. I also advised
-    on technical strategy, helped hire engineers, and advised on their YC application.`,
+    name: 'Javis Technologies',
+    position: 'Software Developer',
+    url: 'https://www.linkedin.com/company/okjavis/?originalSubdomain=in',
+    startDate: '2020-07-13',
+    endDate: '2021-05-17',
+    summary: `Javis is an 'Enterprise Works Platform' that integrates multiple systems both within and across organizations 
+    to enable users to get their work done easily over a single interface. Javis powers an end-to-end automated Order-to-Cash 
+    platform between multiple organizations, to fulfill order processing.'`,
     highlights: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM\'s, and other techniques.',
-    ],
-  },
-  {
-    name: 'Zenysis',
-    position: 'Software Engineering Contractor',
-    url: 'https://zenysis.com',
-    startDate: '2016-02-01',
-    endDate: '2016-03-01',
-    summary: `Zenysis develops data analysis and visualization tools for government agencies and international organizations.
-    Their solutions help improve decision-making by integrating and analyzing large-scale datasets from various sources.
-    I was the second contributor to the codebase. We built data visualization tools and tackled complex data ingestion
-    challenges for the Ethiopian Ministry of Health.`,
-    highlights: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
-    ],
-  },
-  {
-    name: 'Matroid',
-    position: 'Co-founder',
-    url: 'https://matroid.com',
-    startDate: '2015-07-01',
-    endDate: '2016-01-01',
-    summary: `Matroid is a computer vision platform for creating and deploying detectors. Detectors help customers identify objects,
-    events, or patterns in images and videos without requiring machine learning or coding expertise. I played a crucial role in
-    defining the company's vision. I was responsible for architecting and building the initial product. I left shortly after the
-    Series A to focus on Arthena.`,
-    highlights: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Caffe, Node.JS, Redis, MongoDB, and other technologies.',
-    ],
-  },
-  {
-    name: 'Planet',
-    position: 'Missions Intern',
-    url: 'https://planet.com',
-    startDate: '2014-06-01',
-    endDate: '2015-01-01',
-    highlights: [
-      'Built models to improve image quality, signal to noise ratio, and dynamic range.',
-      'Performed statistical analysis of image quality in Matlab and Python.  Developed flight software in C++.',
-      'Organized first hackathon, prototyped hardware, and designed and built photography equipment for rocket launches.',
-    ],
-  },
-  {
-    name: 'Planetary Resources',
-    position: 'Avionics Intern',
-    startDate: '2014-01-01',
-    endDate: '2014-05-01',
-    url: 'http://planetaryresources.com',
-    highlights: [
-      'Developed simulations in Matlab for Attitude Determination and Control Subsystem.',
-      'Developed processes for in lab testing and characterization of various subsystems.',
-      'Assembled flight hardware in cleanroom.',
-    ],
-  },
-  {
-    name: 'Facebook',
-    position: 'Software Engineer Intern',
-    url: 'https://facebook.com',
-    startDate: '2013-06-01',
-    endDate: '2013-09-01',
-    highlights: [
-      'Developed software in python for automated testing of servers.',
-      'Performed statistical analysis with R, HIVE to assist in triage of malfunctioning servers.',
-      'Worked with vendors and ODM\'s during triage to assist in risk mitigation.',
-    ],
-  },
-  {
-    name: 'SEDS-USA',
-    position: 'At Large Board Member',
-    url: 'http://seds.org',
-    startDate: '2013-10-01',
-    endDate: '2014-10-01',
-    highlights: [
-      'Elected to Board of Directors of the USA\'s largest student space advocacy group based on 5+ years of work with SEDS.',
-      'Responsibilities included: organizational strategy, conference presentations, fundraising, special projects, promoting SEDS nationally and internationally, and photographing conferences.',
-    ],
-  },
-  {
-    name: 'UB Nanosatellite Program',
-    position: 'Co-founder, Program Manager',
-    url: 'https://ubnl.space/',
-    startDate: '2010-10-01',
-    endDate: '2012-06-01',
-    highlights: [
-      'Coauthored grant to build a multi-spectral imaging satellite as part of the AFRL University Nanosatellite Program.',
-      'Lead a team of 60 students through satellite development life cycle. Served as a technical expert, acquired intimate working knowledge of satellite subsystems.  Solicited funding through NASA, AFOSR, and several corporate sponsors.',
+      'Developed an end-to-end module to perform checks and balances in purchase orders, parsing more than 100 files a day for clients like Reckitt Benckiser, Dabur, and PepsiCo. Worked on Java and Spring Boot.',
+      'Worked on building REST APIs and developing backend using Microservice architecture.',
+      "Worked on advanced Java concepts of asynchronous programming using 'CompletableFuture', Generics, Lambda functions and JDBC.",
+      'Developed and maintained a microservice to parse incoming emails, reducing manual parsing by 100%. This micro-service was developed in Java.',
+      'Developed code to insert Excel files with up to 1 lakh rows in MySQL database tables.',
+      'Developed asynchronous code in Spring Boot Framework to fetch data from MySQL database, performing 98% faster than synchronous code.',
     ],
   },
 ];
